@@ -1,0 +1,71 @@
+{
+    "development": {
+        "apiURL": "http://locahost:3000",
+        "seperateUsername": true,
+        "sendConfirmationEmail": true,
+        "senderEmail": {
+            "type": "OAuth2",
+            "user": "94prajesh@gmail.com",
+            "clientId": "N/A",
+            "clientSecret": "N/A",
+            "refreshToken": "N/A",
+            "accessToken": "N/A"
+        },
+        "authentication": {
+            "preventPasswordHistory": 3,
+            "maxFailedAttemp": 5,
+            "autoUnlockAfter": 180,
+            "hashSalt": "!==qwerty//poiu",
+            "maxPasswordLife": 90,
+            "tokenLife": 20,
+            "passwordRegex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{,8}$"
+        },
+        "tokenSecret": "My Secret Key"
+    },
+    "test":{
+        "apiURL": "http://locahost:3000",
+        "seperateUsername": false,
+        "sendConfirmationEmail": false,
+        "senderEmail": {
+            "type": "OAuth2",
+            "user": "94prajesh@gmail.com",
+            "clientId": "N/A",
+            "clientSecret": "N/A",
+            "refreshToken": "N/A",
+            "accessToken": "N/A"
+        },
+        "authentication": {
+            "preventPasswordHistory": 3,
+            "maxFailedAttemp": 5,
+            "autoUnlockAfter": 180,
+            "hashSalt": "!==qwerty//poiu",
+            "maxPasswordLife": 90,
+            "tokenLife": 20,
+            "passwordRegex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{,8}$"
+        },
+        "tokenSecret": "My Secret Key"
+    },
+    "production": {
+        "apiURL": "http://locahost:3000",
+        "seperateUsername": false,
+        "sendConfirmationEmail": false,
+        "senderEmail": {
+            "type": "OAuth2",
+            "user": "94prajesh@gmail.com",
+            "clientId": "N/A",
+            "clientSecret": "N/A",
+            "refreshToken": "N/A",
+            "accessToken": "N/A"
+        },
+        "authentication": {
+            "preventPasswordHistory": 3,
+            "maxFailedAttemp": 5,
+            "autoUnlockAfter": 180,
+            "hashSalt": "!==qwerty//poiu",
+            "maxPasswordLife": 90,
+            "tokenLife": 20,
+            "passwordRegex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{,8}$"
+        },
+        "tokenSecret": "My Secret Key"
+    }
+}
